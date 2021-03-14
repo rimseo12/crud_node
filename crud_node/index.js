@@ -22,7 +22,6 @@ var server = app.listen(port, function() {
 
 // connect to mongoDB server
 // mongoose.connect() method로 접속
-const config = require('./config/key');
 const connect = mongoose.connect('mongodb://127.0.0.1:27017/test', 
     {
         useNewUrlParser: true,
