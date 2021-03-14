@@ -1,0 +1,4 @@
+## 파일 무시
+key.js
+## 폴더 무시
+node_modules/
